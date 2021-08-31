@@ -53,3 +53,10 @@
   position: relative;
   top: -10px;
 }
+
+.iconsDiv > div > div {
+  font-size: 18px;
+  font-weight: 600;
+  color: #444649;
+  padding: 10px 0px 0px;
+}
