@@ -55,7 +55,7 @@ export function Projects() {
                     </div>
                     <div className={styles.projectDescription}>
                         <h2>Travelocity</h2>
-                        <p>Booking.com is a well-known online travel agency for hotel room reservations & other travel products. From this website, users can search for hotels based on city and can categorize them with rating, price, and hotel name.</p>
+                        <p>Travelocity.com is a well-known online travel agency for hotel room reservations & other travel services. From this website, users can search for hotels based on city and can categorize them with rating, price, and hotel name.</p>
                         <div className={styles.projectLinksDiv}>
                             <div className={styles.projectLinks}>
                                 <button>View Demo</button>
