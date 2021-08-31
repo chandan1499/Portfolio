@@ -1,0 +1,55 @@
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.aboutContainer {
+    background: rgb(0, 0, 0, 0.8);
+    min-height: 100vh;
+}
+
+.flex {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.leftSection {
+    width: 55%;
+    color: #fff;
+}
+
+.leftSection > h1 {
+    font-family: cursive;
+    font-size: 2.5rem;   
+    margin-bottom: 5px; 
+}
+
+.leftSection > h1 > span {
+    color: #3bffe2;
+}
+
+.leftSection > h3 {
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.leftSection > p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+
+.rightSection {
+    width: 45%;
+    text-align: right;
+}
+
+.rightSection > img {
+    border-radius: 50%;
+}

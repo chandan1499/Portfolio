@@ -1,0 +1,46 @@
+.container {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: fit-content;
+    backdrop-filter: saturate(180%) blur(20px);
+    position: fixed;
+    z-index: 5;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.navBar ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBar > ul:nth-child(1) {
+    width: 40%;
+}
+
+.navBar > ul:nth-child(2) {
+    width: 50%;
+}
+
+.navBar ul li {
+    list-style: none;
+    margin: 0px 10px;
+    color: #f5f5f7;
+    cursor: pointer;
+}
+
+.navBar ul li:hover, .navBar a:hover {
+    color: #3bffe2;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: #fff;
+}

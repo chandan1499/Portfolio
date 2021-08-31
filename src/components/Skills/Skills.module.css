@@ -1,0 +1,55 @@
+.container {
+  width: 100%; 
+  margin: 50px 0px;
+  min-height: 50vh;
+  margin-bottom: 100px;
+}
+
+.heading {
+  text-align: center;
+  color: #444649;
+  font-family: cursive;
+  animation: slideInLeft 0.75s ease both;
+  font-size: 3rem;
+}
+
+@keyframes slideInLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.languagesHeading {
+  width: 50%;
+  margin: auto;
+}
+
+.iconsDiv {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.iconsDiv > div {
+  width: 20%;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.iconsDiv > div > i {
+  cursor: pointer;
+  padding: 13.6px;
+  border-radius: 10px;
+  font-size: 75px;
+}
+
+.iconsDiv > div > i:hover {
+  position: relative;
+  top: -10px;
+}
