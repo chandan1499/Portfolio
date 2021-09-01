@@ -1,7 +1,6 @@
 .container {
     width: 100%; 
     margin: 50px 0px;
-    min-height: 50vh;
     margin-bottom: 100px;
   }
   
@@ -53,6 +52,7 @@
     border-radius: 10px;
     font-size: 75px;
     border-radius: 50%;
+    width: 100px;
   }
   
   .iconsDiv > div > a > img:hover, .iconsDiv > div > a > svg:hover {
@@ -66,3 +66,37 @@
     color: #444649;
     padding: 10px 0px 0px;
   }
+
+/* --------------Responsiveness------------- */
+  
+@media (max-width: 400px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .iconsDiv {
+    width: 90%;
+  }
+
+  .iconsDiv > div {
+      width: 33.3%;
+  }
+
+  .iconsDiv > div > a > img {
+      width: 70px;
+  }
+
+  .iconsDiv > div > div {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .iconsDiv {
+    width: 80%;
+  }
+
+  .iconsDiv > div {
+      width: 33.3%;
+  }
+}

@@ -19,6 +19,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 0;
 }
 
 .navBar > ul:nth-child(1) {
@@ -27,6 +28,12 @@
 
 .navBar > ul:nth-child(2) {
     width: 50%;
+}
+
+.navBar > ul:nth-child(3) {
+    color: #fff;
+    flex-direction: row-reverse;
+    display: none;
 }
 
 .navBar ul li {
@@ -43,4 +50,19 @@
 .navBar a {
     text-decoration: none;
     color: #fff;
+}
+
+
+@media (max-width: 400px) {
+    .navBar {
+        width: 90%;
+    }
+    
+    .navBar > ul:nth-child(2) {
+        display: none !important;
+    }
+
+    .navBar > ul:nth-child(3) {
+        display: flex !important;
+    }
 }

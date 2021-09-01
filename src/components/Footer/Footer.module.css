@@ -41,7 +41,7 @@
     justify-content: center;
     position: absolute;
     top: -25px;
-    left: 48.3%;
+    left: calc(50% - 25px);
     cursor: pointer;
     transition-duration: 0.5s;
 }
@@ -61,6 +61,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .contactNum > div {
@@ -75,4 +76,16 @@
 
 .container > div > p {
     margin-top: 0px;
+}
+
+
+@media (max-width: 400px) {
+    .container {
+        padding: 0;
+    }
+
+    .container > div > p {
+        text-align: center;
+        padding: 10px;
+    }
 }

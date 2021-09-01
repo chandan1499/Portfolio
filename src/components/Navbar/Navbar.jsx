@@ -1,8 +1,12 @@
 import styles from './Navbar.module.css';
 import { Link } from 'react-scroll'
+import { useState } from 'react';
 
 
 export function Navbar() {
+    const [barDisplay, setBarDisplay] = useState("flex");
+    const [crossDisplay, setCrossDisplay] = useState("none")
+
     return (
         <div className={styles.container}>
             <nav className={styles.navBar}>
@@ -55,6 +59,10 @@ export function Navbar() {
                         offset={-70}
                         duration={500}
                     >Contact</Link></li>
+                </ul>
+                <ul>
+                    <li style={{display: `${barDisplay}`}} onClick={()=>{setCrossDisplay("flex"); setBarDisplay("none")}}><i className="fas fa-bars"></i></li>
+                    <li style={{display: `${crossDisplay}`}} onClick={()=>{setBarDisplay("flex"); setCrossDisplay("none")}}><i className="fas fa-times"></i></li>
                 </ul>
             </nav>
         </div>

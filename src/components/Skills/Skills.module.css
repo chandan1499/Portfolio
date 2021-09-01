@@ -60,3 +60,35 @@
   color: #444649;
   padding: 10px 0px 0px;
 }
+
+@media (max-width: 400px) {
+    .heading {
+      font-size: 2.5rem;
+    }
+
+    .iconsDiv {
+      width: 90%;
+    }
+
+    .iconsDiv > div {
+        width: 25%;
+    }
+
+    .iconsDiv > div > i {
+      font-size: 50px;
+    }
+
+    .iconsDiv > div > div {
+      font-size: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+  .iconsDiv {
+    width: 90%;
+  }
+
+  .iconsDiv > div {
+      width: 25%;
+  }
+}
