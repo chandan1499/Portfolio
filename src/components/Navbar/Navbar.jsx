@@ -47,7 +47,7 @@ export function Navbar() {
                         duration={500}
                     >Projects</Link></li>
                     <li><a
-                        href="https://drive.google.com/file/d/15Lq-jozNpZfdgAmIVmuq5FZiILO0c2mz/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1wl1XICXHKQKdUUpTLFL4mjtENQt6tJqc/view?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
                     >Resume</a></li>
@@ -104,7 +104,7 @@ export function Navbar() {
                         duration={500}
                     >Projects</Link></li>
                     <li><a
-                        href="https://drive.google.com/file/d/15Lq-jozNpZfdgAmIVmuq5FZiILO0c2mz/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1wl1XICXHKQKdUUpTLFL4mjtENQt6tJqc/view?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
                     >Resume</a></li>
