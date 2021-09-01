@@ -71,7 +71,7 @@
     }
 
     .iconsDiv > div {
-        width: 25%;
+        width: 33.3%;
     }
 
     .iconsDiv > div > i {
@@ -90,5 +90,11 @@
 
   .iconsDiv > div {
       width: 25%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .iconsDiv {
+    width: 80% !important;
   }
 }

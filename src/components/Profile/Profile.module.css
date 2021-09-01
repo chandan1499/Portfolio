@@ -22,7 +22,6 @@
 }
 
 .leftSection > h1 {
-    font-family: cursive;
     font-size: 2.5rem;   
     margin-bottom: 5px; 
 }
@@ -95,7 +94,7 @@
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 1440px) {
     .flex {
         width: 90%;
         flex-wrap: wrap;

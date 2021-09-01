@@ -18,12 +18,12 @@ export function Projects() {
                         <div className={styles.projectLinksDiv}>
                             <div className={styles.projectLinks}>
                                 <button>View Demo</button>
-                                <button onClick={() => { window.open("https://github.com/chandan1499/CultFit_clone") }}><span><i class="devicon-github-original technology"></i></span> View Source</button>
+                                <button onClick={() => { window.open("https://github.com/chandan1499/CultFit_clone") }}><span><i className="devicon-github-original technology"></i></span> View Source</button>
                             </div>
                             <div className={styles.techStacks}>
-                                <div><i class="devicon-javascript-plain colored technology"></i></div>
-                                <div><i class="devicon-css3-plain-wordmark colored technology"></i></div>
-                                <div><i class="devicon-html5-plain-wordmark colored technology"></i></div>
+                                <div><i className="devicon-javascript-plain colored technology"></i></div>
+                                <div><i className="devicon-css3-plain-wordmark colored technology"></i></div>
+                                <div><i className="devicon-html5-plain-wordmark colored technology"></i></div>
                             </div>
                         </div>
                     </div>
@@ -38,13 +38,13 @@ export function Projects() {
                         <div className={styles.projectLinksDiv}>
                             <div className={styles.projectLinks}>
                                 <button>View Demo</button>
-                                <button onClick={() => { window.open("https://github.com/chandan1499/Project-glassdoor") }}><span><i class="devicon-github-original technology"></i></span> View Source</button>
+                                <button onClick={() => { window.open("https://github.com/chandan1499/Project-glassdoor") }}><span><i className="devicon-github-original technology"></i></span> View Source</button>
                             </div>
                             <div className={styles.techStacks}>
-                                <div><i class="devicon-react-plain-wordmark colored technology"></i></div>
-                                <div><i class="devicon-javascript-plain colored technology"></i></div>
-                                <div><i class="devicon-css3-plain-wordmark colored technology"></i></div>
-                                <div><i class="devicon-html5-plain-wordmark colored technology"></i></div>
+                                <div><i className="devicon-react-plain-wordmark colored technology"></i></div>
+                                <div><i className="devicon-javascript-plain colored technology"></i></div>
+                                <div><i className="devicon-css3-plain-wordmark colored technology"></i></div>
+                                <div><i className="devicon-html5-plain-wordmark colored technology"></i></div>
                             </div>
                         </div>
                     </div>
@@ -59,13 +59,13 @@ export function Projects() {
                         <div className={styles.projectLinksDiv}>
                             <div className={styles.projectLinks}>
                                 <button>View Demo</button>
-                                <button onClick={() => { window.open("https://github.com/sheikhtausif/travelocity-clone") }}><span><i class="devicon-github-original technology"></i></span> View Source</button>
+                                <button onClick={() => { window.open("https://github.com/sheikhtausif/travelocity-clone") }}><span><i className="devicon-github-original technology"></i></span> View Source</button>
                             </div>
                             <div className={styles.techStacks}>
-                                <div><i class="devicon-materialui-plain colored"></i></div>
-                                <div><i class="devicon-redux-original" style={{ color: "#7248B6" }}></i></div>
-                                <div><i class="devicon-react-plain-wordmark colored technology"></i></div>
-                                <div><i class="devicon-javascript-plain colored technology"></i></div>
+                                <div><i className="devicon-materialui-plain colored"></i></div>
+                                <div><i className="devicon-redux-original" style={{ color: "#7248B6" }}></i></div>
+                                <div><i className="devicon-react-plain-wordmark colored technology"></i></div>
+                                <div><i className="devicon-javascript-plain colored technology"></i></div>
                             </div>
                         </div>
                     </div>

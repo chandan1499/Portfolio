@@ -69,7 +69,7 @@
 
 /* --------------Responsiveness------------- */
   
-@media (max-width: 400px) {
+@media (max-width: 767px) {
   .heading {
     font-size: 2.5rem;
   }
@@ -91,12 +91,15 @@
   }
 }
 
-@media (max-width: 767px) {
-  .iconsDiv {
-    width: 80%;
-  }
 
+@media (max-width: 400px) {
   .iconsDiv > div {
-      width: 33.3%;
+      width: 50%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .iconsDiv {
+    width: 80% !important;
   }
 }

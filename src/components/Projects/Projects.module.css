@@ -68,6 +68,7 @@
     margin: 0 0 10px;
     color: #838c95;
     font-family: opensans-bold,sans-serif;
+    padding-bottom: 50px;
 }
 
 .techStacks {
@@ -156,20 +157,27 @@
     .projectLinks {
         width: 100%;
     }
+
+    .projectLinks > button {
+        margin-bottom: 20px;
+        width: 90% !important;
+        font-size: 18px;
+        padding: 8px 10px;
+    }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 900px) {
     .projectBox {
         width: 80%;
     }
 
     .projectImg {
-        width: 100%;
+        width: 100% !important;
         padding-bottom: 20px;
     }
 
     .projectDescription {
-        width: 100%;
+        width: 100% !important;
         padding: 0;
         text-align: center;
     }
@@ -191,5 +199,23 @@
 
     .projectLinks > button {
         margin-right: 20px;
+        width: 43%;
+        font-size: 15px;
+        padding: 8px 10px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .projectBox {
+        width: 80%;
+    }
+
+    .projectImg {
+        width: 30%;
+    }
+
+    .projectDescription {
+        width: 60%;
+        padding: 20;
     }
 }
