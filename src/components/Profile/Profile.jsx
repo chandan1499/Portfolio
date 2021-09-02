@@ -1,5 +1,5 @@
 import styles from './Profile.module.css';
-import profilePic from '../../images/profilePic.jpg';
+import profilePic from '../../images/profilePic.jpeg';
 
 export const Profile = () => {
     const handleResumeClick = () => {
