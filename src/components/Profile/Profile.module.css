@@ -55,6 +55,26 @@
     height: 300px;
 }
 
+.resumeButton {
+    border: 2px solid #3bffe2;
+    color: #3bffe2;
+    background: inherit;
+    font: 16px/30px opensans-bold,sans-serif;
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition-duration: 500ms;
+    box-shadow: inset 0 0 0 0 #3bffe2;
+    transition: ease-out 0.3s;
+    position: relative;
+    margin-top: 15px;
+}
+
+.resumeButton:hover {
+    box-shadow: inset 200px 0 0 0 #3bffe2;
+    color: black;
+}
 
 @media (max-width: 400px) {
     .flex {
