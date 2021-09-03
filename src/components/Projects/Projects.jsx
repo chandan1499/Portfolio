@@ -17,7 +17,7 @@ export function Projects() {
                         <p>Cultfit is a website where users can take Cultfit gym membership and from the website itself users can stay fit and healthy by reading some yoga tips and from this website users can buy sportswear and can also order healthy food.</p>
                         <div className={styles.projectLinksDiv}>
                             <div className={styles.projectLinks}>
-                                <button>View Demo</button>
+                                <button style={{display: "none"}}>View Demo</button>
                                 <button onClick={() => { window.open("https://github.com/chandan1499/CultFit_clone") }}><span><i className="devicon-github-original technology"></i></span> View Source</button>
                             </div>
                             <div className={styles.techStacks}>
@@ -37,7 +37,7 @@ export function Projects() {
                         <p>Glassdoor is an American website where current and former employees anonymously review companies. Glassdoor also allows users to anonymously submit and view salaries as well as search and apply for jobs on its platform.</p>
                         <div className={styles.projectLinksDiv}>
                             <div className={styles.projectLinks}>
-                                <button>View Demo</button>
+                                <button style={{display: "none"}}>View Demo</button>
                                 <button onClick={() => { window.open("https://github.com/chandan1499/Project-glassdoor") }}><span><i className="devicon-github-original technology"></i></span> View Source</button>
                             </div>
                             <div className={styles.techStacks}>
@@ -58,7 +58,7 @@ export function Projects() {
                         <p>Travelocity.com is a well-known online travel agency for hotel room reservations & other travel services. From this website, users can search for hotels based on city and can categorize them with rating, price, and hotel name.</p>
                         <div className={styles.projectLinksDiv}>
                             <div className={styles.projectLinks}>
-                                <button>View Demo</button>
+                                <button style={{display: "none"}}>View Demo</button>
                                 <button onClick={() => { window.open("https://github.com/sheikhtausif/travelocity-clone") }}><span><i className="devicon-github-original technology"></i></span> View Source</button>
                             </div>
                             <div className={styles.techStacks}>
