@@ -55,10 +55,6 @@
     width: 100px;
   }
   
-  .iconsDiv > div > a > img:hover, .iconsDiv > div > a > svg:hover {
-    position: relative;
-    top: -10px;
-  }
 
   .iconsDiv > div > div {
     font-size: 18px;

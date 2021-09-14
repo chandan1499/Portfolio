@@ -18,6 +18,10 @@ export function Footer() {
             </div>
             <div className={styles.contactNum}>
                 <div>
+                    <span><i class="fas fa-map-marker-alt"></i></span>
+                    <p>New Delhi, India</p>
+                </div>
+                <div>
                     <span><i className="fas fa-envelope"></i></span>
                     <p>gupta.chandan1499@gmail.com</p>
                 </div>

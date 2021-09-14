@@ -11,7 +11,14 @@ export function Navbar() {
         <div className={styles.container}>
             <nav className={styles.navBar}>
                 <ul>
-                    <li>{"</>"}</li>
+                    <li><Link
+                        activeClass="active"
+                        to="#about"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >{"</>"}</Link></li>
                 </ul>
                 <ul>
                     <li><Link

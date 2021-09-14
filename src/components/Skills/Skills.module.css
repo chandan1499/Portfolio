@@ -43,15 +43,9 @@
 }
 
 .iconsDiv > div > i {
-  cursor: pointer;
   padding: 13.6px;
   border-radius: 10px;
   font-size: 75px;
-}
-
-.iconsDiv > div > i:hover {
-  position: relative;
-  top: -10px;
 }
 
 .iconsDiv > div > div {
