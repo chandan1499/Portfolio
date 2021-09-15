@@ -14,7 +14,7 @@ export function Projects() {
                     </div>
                     <div className={styles.projectDescription}>
                         <h2>Cultfit</h2>
-                        <p>Cultfit is a website where users can take Cultfit gym membership pass and from the website itself users can buy sportswear and can also order healthy foods. This project was completed by collaborative efforts 4 members in 3 weeks using HTML, CSS and Javascript and for saving user details we used localstorage.</p>
+                        <p>This is clone of the Cultfit website where users can take Cultfit gym membership pass and from the website itself users can buy sportswear and can also order healthy foods. This project was completed by collaborative efforts of 4 members in 3 weeks using HTML, CSS and Javascript and for saving user details we used localstorage.</p>
                         <div className={styles.projectLinksDiv}>
                             <div className={styles.projectLinks}>
                                 <button style={{display: "none"}}>View Demo</button>
@@ -34,7 +34,7 @@ export function Projects() {
                     </div>
                     <div className={styles.projectDescription}>
                         <h2>Glassdoor</h2>
-                        <p>Glassdoor is an American website where current and former employees anonymously review companies. Glassdoor also allows users to anonymously submit and view salaries as well as search and apply for jobs on its platform. This was a collaborative project which was done by me and 3 other members in 4 days using react js and CSS.</p>
+                        <p>This is clone of the Glassdoor website where current and former employees anonymously review companies. Glassdoor also allows users to anonymously submit and view salaries as well as search and apply for jobs on its platform. This was a collaborative project which was done by me and 3 other members in 4 days using react js and CSS.</p>
                         <div className={styles.projectLinksDiv}>
                             <div className={styles.projectLinks}>
                                 <button style={{display: "none"}}>View Demo</button>
@@ -55,7 +55,7 @@ export function Projects() {
                     </div>
                     <div className={styles.projectDescription}>
                         <h2>Travelocity</h2>
-                        <p>Travelocity.com is a well-known online travel agency for hotel room reservations & other travel services. From this website, users can search for hotels based on city and can categorize them with rating, price, and hotel name. This was a collaborative project which was done by me and 3 other members in 4 days using react js, redux, material UI and bootstrap.</p>
+                        <p>This is clone of the Travelocity.com website which is well-known online travel agency for hotel room reservations & other travel services. From this website, users can search for hotels based on city and can categorize them with rating, price, and hotel name. This was a collaborative project which was done by me and 3 other members in 4 days using react js, redux, material UI and bootstrap.</p>
                         <div className={styles.projectLinksDiv}>
                             <div className={styles.projectLinks}>
                                 <button style={{display: "none"}}>View Demo</button>
