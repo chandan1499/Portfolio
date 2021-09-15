@@ -5,8 +5,22 @@ import { Profile } from './components/Profile/Profile';
 import { Projects } from './components/Projects/Projects';
 import { Footer } from './components/Footer/Footer';
 import { CodingProfiles } from './components/Coding_handles/Coding';
+import { useEffect, useState } from 'react';
+import { Loading } from './components/Loader/spinner';
 
 function App() {
+  const [showLoading, setShowLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setShowLoading(false);
+    },3000)
+  },[]);
+
+  if(showLoading) {
+    return <Loading />
+  }
+
   return (
     <div className="App">
       <Navbar />
