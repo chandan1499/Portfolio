@@ -27,15 +27,15 @@ export const Skills = () => {
                 </div>
                 <div>
                 <i class="devicon-nodejs-plain colored"></i>
-                <div>Node js</div>
+                <div>NODE JS</div>
                 </div>
                 <div>
                     <i class="devicon-mongodb-plain colored"></i>
-                    <div>Mongo db</div>
+                    <div>MONGO DB</div>
                 </div>
                 <div>
                     <i class="devicon-express-original colored"></i>
-                    <div>Express</div>
+                    <div>EXPRESS</div>
                 </div>
                 <div>
                     <i className="devicon-github-original technology"></i><br />
