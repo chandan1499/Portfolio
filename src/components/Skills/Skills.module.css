@@ -65,7 +65,7 @@
     }
 
     .iconsDiv > div {
-        width: 33.3%;
+        width: 33.3% !important;
     }
 
     .iconsDiv > div > i {

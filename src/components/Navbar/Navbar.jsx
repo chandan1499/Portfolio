@@ -12,6 +12,7 @@ export function Navbar() {
             <nav className={styles.navBar}>
                 <ul>
                     <li><Link
+                        onClick={() => { setBarDisplay("flex"); setCrossDisplay("none") }}
                         activeClass="active"
                         to="#about"
                         spy={true}
