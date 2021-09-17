@@ -1,7 +1,7 @@
 import styles from './Coding.module.css';
 import hackerrankLogo from "../../images/hackerrank_logo.svg";
 import leetcodeLogo from "../../images/leetcode_logo.png";
-import gfgLogo from "../../images/gfg_logo.png";
+import gfgLogo from "../../images/gfg_logo.svg";
 
 export function CodingProfiles() {
     return (

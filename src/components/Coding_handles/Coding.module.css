@@ -40,10 +40,6 @@
     width: 20%;
     margin: 20px 0px;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
   }
   
   .iconsDiv > div > a > img {
@@ -51,7 +47,7 @@
     padding: 13.6px;
     border-radius: 10px;
     font-size: 75px;
-    border-radius: 50%;
+    height: 100px;
     width: 100px;
   }
   
