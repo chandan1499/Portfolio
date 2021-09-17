@@ -14,7 +14,7 @@ export const Loading = () => {
                     top: "calc(50% - 50px)",
                     left: "calc(50% - 50px)"
                 }}
-                timeout={3000} //3 secs
+                timeout={1500} //3 secs
             />
         </div>
     );
