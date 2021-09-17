@@ -60,7 +60,7 @@ export function Projects() {
                         <p>This is clone of the Cultfit website where users can take Cultfit gym membership pass and from the website itself users can buy sportswear and can also order healthy foods. This project was completed by collaborative efforts of 4 members in 3 weeks using HTML, CSS and Javascript and for saving user details we used localstorage.</p>
                         <div className={styles.projectLinksDiv}>
                             <div className={styles.projectLinks}>
-                                <button style={{ display: "none" }}>View Demo</button>
+                                <button onClick={() => { window.open("https://cultfit-clone.vercel.app/") }}>View Demo</button>
                                 <button onClick={() => { window.open("https://github.com/chandan1499/CultFit_clone") }}><span><i className="devicon-github-original technology"></i></span> View Source</button>
                             </div>
                             <div className={styles.techStacks}>
