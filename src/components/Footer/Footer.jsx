@@ -31,7 +31,7 @@ export function Footer() {
                 </div>
             </div>
             <div>
-                <p>Designed and build by Chandan Gupta, ©2021 All rights reserved.</p>
+                <p>Designed and build by Chandan Gupta</p>
             </div>
         </div>
     );
