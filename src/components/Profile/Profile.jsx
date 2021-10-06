@@ -3,7 +3,7 @@ import profilePic from '../../images/profilePic.jpeg';
 
 export const Profile = () => {
     const handleResumeClick = () => {
-        window.open("https://drive.google.com/file/d/1wl1XICXHKQKdUUpTLFL4mjtENQt6tJqc/view");
+        window.open("https://drive.google.com/file/d/1j0sSFuAL1Lj0Pat3pG1o2bYBPQ0N-WIl/view?usp=sharing");
     }
 
     return (
