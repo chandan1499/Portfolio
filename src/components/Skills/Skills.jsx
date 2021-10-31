@@ -26,8 +26,8 @@ export const Skills = () => {
                     <div>REACT</div>
                 </div>
                 <div>
-                <i class="devicon-nodejs-plain colored"></i>
-                <div>NODE JS</div>
+                    <i class="devicon-nodejs-plain colored"></i>
+                    <div>NODE JS</div>
                 </div>
                 <div>
                     <i class="devicon-mongodb-plain colored"></i>
