@@ -15,7 +15,7 @@ export function Projects() {
                     </div>
                     <div className={styles.projectDescription}>
                         <h2>Dev.To</h2>
-                        <p>This is clone of the dev.To website where devlopers can share and get the information related to the developers through the posts. Developers can also comment on the post and also like on the post. There is also one  This project was completed by collaborative efforts of 4 members in 1 week using react js for frontend and node js for backend.</p>
+                        <p>This is a clone of the dev.To a website where developers can share and get the information related to the developers through the posts. Developers can also comment on the post and also like on the post. This project was completed by collaborative efforts of 4 members in 1 week using react js for frontend and node js for the backend.</p>
                         <div className={styles.projectLinksDiv}>
                             <div className={styles.projectLinks}>
                                 <button onClick={() => { window.open("https://dev-to-clone.netlify.app/") }}>View Demo</button>

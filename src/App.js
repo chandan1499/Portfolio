@@ -8,16 +8,17 @@ import { CodingProfiles } from './components/Coding_handles/Coding';
 import { useEffect, useState } from 'react';
 import { Loading } from './components/Loader/spinner';
 
+
 function App() {
   const [showLoading, setShowLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
       setShowLoading(false);
-    },1500)
-  },[]);
+    }, 1500)
+  }, []);
 
-  if(showLoading) {
+  if (showLoading) {
     return <Loading />
   }
 
